@@ -28,6 +28,7 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
 
 4. Performance & Scalability
 > The bot is designed for running multiple sessions (three in the example). It is flexible and can be scaled by adjusting the session count or adding concurrency using Python's threading or asyncio.
+
 > Proper cleanup (driver.quit()) and resource management is implemented to handle multiple sessions efficiently.
 
 5. Future Scopes
