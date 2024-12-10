@@ -38,19 +38,21 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
     > *User Interaction Simulation:* More sophisticated simulations such as interacting with form elements, submitting forms, or browsing through multiple pages could be implemented for more complex use cases.
 
 6. Tools & Libraries
-    > Selenium: Automates the browser for generating traffic.
+    > *Selenium:* Automates the browser for generating traffic.
 Undetected-Chromedriver: Bypasses browser detection mechanisms.
-    > Faker: Generates fake URLs and user data for randomization.
+     
+    > *Faker:* Generates fake URLs and user data for randomization.
 Requests: Used to check if the proxies are working.
 
 7. Execution & Usage
    
-    > Clone or download the script to your local machine.
-    > Install the necessary dependencies:
+    > a.Clone or download the script to your local machine.
+    
+    > b.Install the necessary dependencies:
     
          >pip install undetected-chromedriver selenium requests faker**
    
-    > Run the script by executing the following command:
+    > c.Run the script by executing the following command:
     
          > python traffic_bot.py**
-    > Enter the target URL when prompted.
+    > d.Enter the target URL when prompted.
