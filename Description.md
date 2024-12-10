@@ -12,13 +12,13 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
     > Scrolling: Random scrolling with varied speeds.
     > Typing: Human-like typing with random delays between keystrokes.
    Proxy Management:
-    The bot selects a proxy from a predefined list and checks if it is functional. If the proxy fails or is unavailable, the bot defaults to using the regular IP address.
+    > The bot selects a proxy from a predefined list and checks if it is functional. If the proxy fails or is unavailable, the bot defaults to using the regular IP address.
 
    Device Fingerprinting Spoofing:
-    The bot spoofs its device information, including screen resolution and user-agent, to make it less detectable.
+    > The bot spoofs its device information, including screen resolution and user-agent, to make it less detectable.
 
    Custom URL Targeting:
-    The user can specify the target URL during runtime, allowing flexibility in choosing the websites to target.
+    > The user can specify the target URL during runtime, allowing flexibility in choosing the websites to target.
 
 4. Error Handling
 The script tests proxy validity by attempting an HTTP request to a known URL. If the proxy is invalid, the bot will skip the proxy and use the default IP address to continue browsing.
