@@ -48,9 +48,9 @@ Requests: Used to check if the proxies are working.
     > Clone or download the script to your local machine.
     > Install the necessary dependencies:
     
- **pip install undetected-chromedriver selenium requests faker**
-    
+         >pip install undetected-chromedriver selenium requests faker**
+   
     > Run the script by executing the following command:
- **python traffic_bot.py**
- 
+    
+         > python traffic_bot.py**
     > Enter the target URL when prompted.
