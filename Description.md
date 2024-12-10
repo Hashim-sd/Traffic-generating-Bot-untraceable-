@@ -1,22 +1,21 @@
 **Code Documentation**
 1. Overview
-This script generates web traffic by automating browsing actions on a user-defined website. It replicates human-like behaviors to avoid detection, such as mouse movements, scrolling, and typing.
+   This script generates web traffic by automating browsing actions on a user-defined website. It replicates human-like behaviors to avoid detection, such as mouse movements, scrolling, and typing.
 The bot is designed to run multiple browsing sessions using randomized proxies and device spoofing techniques.
 
-2. Features Implemented
-  Human-Like Behavior Simulation:
+3. Features Implemented
+   Human-Like Behavior Simulation:
     > Mouse Movements: Random mouse movements across the webpage.
     > Scrolling: Random scrolling with varied speeds.
     > Typing: Human-like typing with random delays between keystrokes.
-
-  Proxy Management:
+   Proxy Management:
     The bot selects a proxy from a predefined list and checks if it is functional.
 If the proxy fails or is unavailable, the bot defaults to using the regular IP address.
 
-  Device Fingerprinting Spoofing:
+   Device Fingerprinting Spoofing:
     The bot spoofs its device information, including screen resolution and user-agent, to make it less detectable.
 
-  Custom URL Targeting:
+   Custom URL Targeting:
     The user can specify the target URL during runtime, allowing flexibility in choosing the websites to target.
 
 3. Error Handling
