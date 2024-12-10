@@ -8,9 +8,10 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
 2. Features Implemented
    
    Human-Like Behavior Simulation:
-    > Mouse Movements: Random mouse movements across the webpage.
-    > Scrolling: Random scrolling with varied speeds.
-    > Typing: Human-like typing with random delays between keystrokes.
+    > *Mouse Movements:* Random mouse movements across the webpage.
+    > *Scrolling:* Random scrolling with varied speeds.
+    > *Typing:* Human-like typing with random delays between keystrokes.
+    
    Proxy Management:
     > The bot selects a proxy from a predefined list and checks if it is functional. If the proxy fails or is unavailable, the bot defaults to using the regular IP address.
 
@@ -21,12 +22,13 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
     > The user can specify the target URL during runtime, allowing flexibility in choosing the websites to target.
 
 3. Error Handling
-The script tests proxy validity by attempting an HTTP request to a known URL. If the proxy is invalid, the bot will skip the proxy and use the default IP address to continue browsing.
-The try-except blocks handle errors during each session and gracefully shut down the browser in case of failure, ensuring no resource leaks.
+>The script tests proxy validity by attempting an HTTP request to a known URL. If the proxy is invalid, the bot will skip the proxy and use the default IP address to continue browsing.
+
+>The try-except blocks handle errors during each session and gracefully shut down the browser in case of failure, ensuring no resource leaks.
 
 4. Performance & Scalability
-The bot is designed for running multiple sessions (three in the example). It is flexible and can be scaled by adjusting the session count or adding concurrency using Python's threading or asyncio.
-Proper cleanup (driver.quit()) and resource management is implemented to handle multiple sessions efficiently.
+> The bot is designed for running multiple sessions (three in the example). It is flexible and can be scaled by adjusting the session count or adding concurrency using Python's threading or asyncio.
+> Proper cleanup (driver.quit()) and resource management is implemented to handle multiple sessions efficiently.
 
 5. Future Scopes
     > Concurrency: The bot can be extended to run multiple sessions in parallel using Python's threading or multiprocessing to enhance performance.
