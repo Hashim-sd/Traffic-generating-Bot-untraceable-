@@ -32,10 +32,13 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
 > Proper cleanup (driver.quit()) and resource management is implemented to handle multiple sessions efficiently.
 
 5. Future Scopes
-    > *Concurrency:* The bot can be extended to run multiple sessions in parallel using Python's threading or multiprocessing to enhance performance.
-    > *Advanced Proxy Management:* Integration with proxy rotation services or private proxy APIs could be added for more robust proxy handling.
-    > *Extended Device Fingerprinting:* Implement additional fingerprinting techniques such as fonts, canvas fingerprinting, and WebGL.
-    > *User Interaction Simulation:* More sophisticated simulations such as interacting with form elements, submitting forms, or browsing through multiple pages could be implemented for more complex use cases.
+    > **Concurrency:** The bot can be extended to run multiple sessions in parallel using Python's threading or multiprocessing to enhance performance.
+    
+    > **Advanced Proxy Management:** Integration with proxy rotation services or private proxy APIs could be added for more robust proxy handling.
+    
+    > **Extended Device Fingerprinting:** Implement additional fingerprinting techniques such as fonts, canvas fingerprinting, and WebGL.
+    
+    > **User Interaction Simulation:** More sophisticated simulations such as interacting with form elements, submitting forms, or browsing through multiple pages could be implemented for more complex use cases.
 
 6. Tools & Libraries
     > **Selenium:** Automates the browser for generating traffic.
