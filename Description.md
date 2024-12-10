@@ -5,7 +5,7 @@
    This script generates web traffic by automating browsing actions on a user-defined website. It replicates human-like behaviors to avoid detection, such as mouse movements, scrolling, and typing.
 The bot is designed to run multiple browsing sessions using randomized proxies and device spoofing techniques.
 
-3. Features Implemented
+2. Features Implemented
    
    Human-Like Behavior Simulation:
     > Mouse Movements: Random mouse movements across the webpage.
@@ -20,15 +20,15 @@ The bot is designed to run multiple browsing sessions using randomized proxies a
    Custom URL Targeting:
     > The user can specify the target URL during runtime, allowing flexibility in choosing the websites to target.
 
-4. Error Handling
+3. Error Handling
 The script tests proxy validity by attempting an HTTP request to a known URL. If the proxy is invalid, the bot will skip the proxy and use the default IP address to continue browsing.
 The try-except blocks handle errors during each session and gracefully shut down the browser in case of failure, ensuring no resource leaks.
 
-5. Performance & Scalability
+4. Performance & Scalability
 The bot is designed for running multiple sessions (three in the example). It is flexible and can be scaled by adjusting the session count or adding concurrency using Python's threading or asyncio.
 Proper cleanup (driver.quit()) and resource management is implemented to handle multiple sessions efficiently.
 
-6. Future Scopes
+5. Future Scopes
     > Concurrency: The bot can be extended to run multiple sessions in parallel using Python's threading or multiprocessing to enhance performance.
     > Advanced Proxy Management: Integration with proxy rotation services or private proxy APIs could be added for more robust proxy handling.
     > Extended Device Fingerprinting: Implement additional fingerprinting techniques such as fonts, canvas fingerprinting, and WebGL.
@@ -41,9 +41,9 @@ Undetected-Chromedriver: Bypasses browser detection mechanisms.
 Requests: Used to check if the proxies are working.
 
 8. Execution & Usage
-    a- Clone or download the script to your local machine.
-    b- Install the necessary dependencies:
-   pip install undetected-chromedriver selenium requests faker
-    c- Run the script by executing the following command:
-   python traffic_bot.py
-    d- Enter the target URL when prompted.
+    Clone or download the script to your local machine.
+    Install the necessary dependencies:
+ pip install undetected-chromedriver selenium requests faker
+    Run the script by executing the following command:
+ python traffic_bot.py
+    Enter the target URL when prompted.
