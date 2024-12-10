@@ -44,9 +44,10 @@ Undetected-Chromedriver: Bypasses browser detection mechanisms.
 Requests: Used to check if the proxies are working.
 
 7. Execution & Usage
-    Clone or download the script to your local machine.
-    Install the necessary dependencies:
+   
+    > Clone or download the script to your local machine.
+    > Install the necessary dependencies:
  *pip install undetected-chromedriver selenium requests faker*
-    Run the script by executing the following command:
+    > Run the script by executing the following command:
  *python traffic_bot.py*
-    Enter the target URL when prompted.
+    > Enter the target URL when prompted.
